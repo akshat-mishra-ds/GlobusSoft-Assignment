@@ -140,9 +140,3 @@ Uploads two face images and performs face verification.
 2. Facial embeddings are extracted.
 3. Cosine similarity is calculated between embeddings.
 4. A threshold is applied to determine whether the faces belong to the same person.
-
-## Notes
-
-* The current implementation uses the first detected face from each image.
-* Similarity threshold can be adjusted based on desired accuracy.
-* InsightFace provides both face detection and embedding extraction.
